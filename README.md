@@ -1,5 +1,6 @@
-Zinc Downloader
-Zinc Database Downloader & Merger
+**Zinc Downloader**
+
+**Zinc Database Downloader & Merger**
 
 Due to the Zinc15 & Zinc20 database website's limitations on downloading big dataset files in .sdf, .smi & other formats, this tool will help you to easily download any dataset you want based on your zinc ID's list file.
 
@@ -11,7 +12,8 @@ Due to the Zinc15 & Zinc20 database website's limitations on downloading big dat
 
 **Prerequiered files:**
 
-**Zinc ID's list:**
+Zinc ID's list:
+
 To create your Zinc ID's list you can download the CSV file of your preferred dataset and convert it to a list TXT file or create the list TXT file manually. Be aware that the Zinc ID's list file must be created in .txt format. For more information on how the final file has to be you can take a look at the list.txt file existing in the project files.
 
 **How to Run:**
@@ -26,11 +28,11 @@ python zinc_downloader.py
 
     Choose between 15 & 20:
 
-    >15 
+    15 
 
 which refers to https://zinc15.docking.org database
 
-    >20
+    20
 
 which refers to https://zinc20.docking.org database
 
